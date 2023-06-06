@@ -20,7 +20,6 @@ TreeNode* pop() {
 	TreeNode* p = NULL;
 	if (top >= 0)
 		p = stack[top--];
-
 	return p;
 }
 
@@ -29,7 +28,6 @@ void inorder_iter(TreeNode* root) {
 		for (; root; root = root->left)
 			push(root);
 		root = pop();
-
 		if (!root)
 			break;
 		printf("[%d] ", root->data);
