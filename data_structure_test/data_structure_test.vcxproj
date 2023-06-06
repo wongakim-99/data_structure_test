@@ -148,9 +148,11 @@
     <ClCompile Include="data_structure_test.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Dual_linked_list.c" />
     <ClCompile Include="level_visit_tree.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="linked_list_test.c" />
     <ClCompile Include="Tree_count_and_height.c" />
     <ClCompile Include="tree_visit_case.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
